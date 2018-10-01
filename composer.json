@@ -6,7 +6,7 @@
     },
     "type": "magento2-module",
     "license": [
-        "https://connect20.aveo-trade.cz/Content_Cat:Agreement"
+        "proprietary"
     ],
     "autoload": {
       "files": [
