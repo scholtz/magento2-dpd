@@ -5,6 +5,13 @@ Installation
 composer require gimmick/magento2-dpd
 ```
 
+or 
+
+```bash
+composer require "gimmick/magento2-dpd":"dev-master"
+```
+
+
 Upgrade
 -------
 

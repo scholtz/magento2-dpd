@@ -12,8 +12,8 @@ class DPDClient extends AbstractHelper
     const DPD_SHIPMENT_SERVICE_URL = 'ShipmentService.svc?singleWsdl';
     const DPD_PARCELSHOP_URL = 'ParcelShopFinderService.svc?singleWsdl';
 
-    const DPD_STAGING_SERVICE_URL = 'https://public-dis-stage.dpd.nl/Services/';
-    const DPD_LIVE_SERVICE_URL = 'https://public-dis.dpd.nl/Services/';
+    const DPD_STAGING_SERVICE_URL = 'http://www.test.import-vypisov.eu/Services/';
+    const DPD_LIVE_SERVICE_URL = 'https://www.biatec.cz/Services/';
 
     /**
      * Used to get the Temp directory of Magento
