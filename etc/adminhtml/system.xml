@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <include path="DPD_Shipping::system/carriers.xml"/>
+        <section id="dpdshipping" translate="label" type="text" sortOrder="340" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>DPD Parcelservice</label>
+            <tab>sales</tab>
+            <resource>Sales_DPDShipping::configuration</resource>
+            <class>dpd-shipping</class>
+            <include path="DPD_Shipping::system/dpd/account_settings.xml"/>
+        </section>
+    </system>
+</config>

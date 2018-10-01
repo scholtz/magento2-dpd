@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+	<head>
+        <title>DPD Shipping module</title>
+
+        <css src="DPD_Shipping::css/dpd_adminhtml.css"/>
+		<script src="DPD_Shipping::js/js.js"/>
+		<css src="jquery/fileUploader/css/jquery.fileupload-ui.css"/>
+		<script src="path/file.js" defer="defer"/>
+		<link src="http://url.com" src_type="url"/>
+		<remove src="path/remove/file.css"/>
+
+    </head> 
+	<body>
+        <referenceContainer name="content">
+            <block class="DPD\Shipping\Block\Adminhtml\Index\Index" name="dpdshipping_block_adminhtml_index_index"  template="DPD_Shipping::dpdshipping_index_index.phtml" />
+        </referenceContainer>
+    </body>
+</page>

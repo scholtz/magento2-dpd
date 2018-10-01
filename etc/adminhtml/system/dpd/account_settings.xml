@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+
+<include xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_include.xsd">
+    <group id="account_settings" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="1"
+           showInStore="1">
+        <label>Account settings</label>
+        <field id="mode_type" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1"
+               showInStore="0">
+            <label>Environment</label>
+            <source_model>DPD\Shipping\Config\Source\Settings\Environment</source_model>
+        </field>
+        <field id="username" translate="label" type="text" sortOrder="30" showInDefault="1" showInWebsite="1"
+               showInStore="1">
+            <label>Username</label>
+        </field>
+        <field id="password" translate="label" type="obscure" sortOrder="30" showInDefault="1" showInWebsite="1"
+               showInStore="1">
+            <label>Password</label>
+            <backend_model>Magento\Config\Model\Config\Backend\Encrypted</backend_model>
+        </field>
+        <field id="print_format" translate="label" type="select" sortOrder="30" showInDefault="1" showInWebsite="1"
+               showInStore="1">
+            <label>Print format</label>
+            <source_model>DPD\Shipping\Config\Source\Settings\PrintFormat</source_model>
+        </field>
+        <field id="account_type" translate="label" type="select" sortOrder="30" showInDefault="1" showInWebsite="1"
+               showInStore="0">
+            <label>DPD Account Type</label>
+            <source_model>DPD\Shipping\Config\Source\Settings\AccountType</source_model>
+        </field>
+        <field id="includeReturnLabel" translate="label" type="select" sortOrder="30" showInDefault="1" showInWebsite="1"
+               showInStore="0">
+            <label>Include return label</label>
+            <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+        </field>
+    </group>
+	<group id="sender_address" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="1"
+	   showInStore="1">
+		<label>Shipping address</label>
+		
+        <field id="name1" translate="label" type="text" sortOrder="30" showInDefault="1" showInWebsite="1"
+               showInStore="1">
+            <label>Name</label>
+        </field>
+		
+        <field id="street" translate="label" type="text" sortOrder="30" showInDefault="1" showInWebsite="1"
+               showInStore="1">
+            <label>Street</label>
+        </field>
+		
+        <field id="houseNo" translate="label" type="text" sortOrder="30" showInDefault="1" showInWebsite="1"
+               showInStore="1">
+            <label>Housenumber</label>
+        </field>
+		
+        <field id="zipCode" translate="label" type="text" sortOrder="30" showInDefault="1" showInWebsite="1"
+               showInStore="1">
+            <label>Zipcode</label>
+        </field>
+		
+        <field id="city" translate="label" type="text" sortOrder="30" showInDefault="1" showInWebsite="1"
+               showInStore="1">
+            <label>City</label>
+        </field>
+        <field id="country" translate="label" type="text" sortOrder="30" showInDefault="1" showInWebsite="1"
+               showInStore="1">
+            <label>Country</label>
+        </field>
+    </group>
+</include>

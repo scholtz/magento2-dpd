@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="sales_order_save_before">
+        <observer name="dpd_shipping_sales_order_save_before" instance="DPD\Shipping\Observer\SalesOrderSaveBefore" />
+    </event>
+    <event name="sales_order_address_save_before">
+        <observer name="dpdb_shipping_sales_order_address_save_before" instance="DPD\Shipping\Observer\SalesOrderAddressSaveBefore" />
+    </event>
+</config>

@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <dpdshipping>
+            <account_settings>
+                <print_format>A4</print_format>
+                <account_type>B2C</account_type>
+            </account_settings>
+        </dpdshipping>
+        <carriers>
+            <dpdguarantee18>
+                <active>0</active>
+                <rate_type>flat</rate_type>
+                <sallowspecific>0</sallowspecific>
+                <model>DPD\Shipping\Model\Carrier\DpdGuarantee18</model>
+                <name>DPD Guarantee</name>
+                <price>00.00</price>
+                <title>Your shipment will be delivered before 18:00</title>
+                <type>I</type>
+                <sort_order>0</sort_order>
+                <specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
+            </dpdguarantee18>
+            <dpdexpress12>
+                <active>0</active>
+                <rate_type>flat</rate_type>
+                <sallowspecific>0</sallowspecific>
+                <model>DPD\Shipping\Model\Carrier\DpdExpress12</model>
+                <name>DPD Express</name>
+                <price>00.00</price>
+                <title>Your shipment will be delivered before 12:00</title>
+                <type>I</type>
+                <sort_order>0</sort_order>
+                <specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
+            </dpdexpress12>
+            <dpdexpress10>
+                <active>0</active>
+                <rate_type>flat</rate_type>
+                <sallowspecific>0</sallowspecific>
+                <model>DPD\Shipping\Model\Carrier\DpdExpress10</model>
+                <name>DPD Express</name>
+                <price>00.00</price>
+                <title>Your shipment will be delivered before 10:00</title>
+                <type>I</type>
+                <sort_order>0</sort_order>
+                <specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
+            </dpdexpress10>
+            <dpdclassic>
+                <active>0</active>
+                <rate_type>flat</rate_type>
+                <sallowspecific>0</sallowspecific>
+                <model>DPD\Shipping\Model\Carrier\DpdClassic</model>
+                <name>DPD Classic</name>
+                <price>00.00</price>
+                <title>DPD Classic</title>
+                <type>I</type>
+                <sort_order>0</sort_order>
+                <specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
+            </dpdclassic>
+            <dpdpredict>
+                <active>0</active>
+				<rate_type>flat</rate_type>
+                <sallowspecific>0</sallowspecific>
+                <model>DPD\Shipping\Model\Carrier\Dpdpredict</model>
+                <name>DPD Predict</name>
+                <price>00.00</price>
+                <title>DPD Predict</title>
+                <type>I</type>
+                <sort_order>0</sort_order>
+                <specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
+            </dpdpredict>
+            <dpdsaturday>
+                <active>0</active>
+				<rate_type>flat</rate_type>
+                <sallowspecific>0</sallowspecific>
+                <model>DPD\Shipping\Model\Carrier\DpdSaturday</model>
+                <name>DPD Saturday</name>
+                <price>00.00</price>
+                <title>Your shipment will be delivered on Saturday</title>
+                <type>I</type>
+                <sort_order>0</sort_order>
+                <specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
+            </dpdsaturday>
+            <dpdclassicsaturday>
+                <active>0</active>
+				<rate_type>flat</rate_type>
+                <sallowspecific>0</sallowspecific>
+                <model>DPD\Shipping\Model\Carrier\DpdClassicSaturday</model>
+                <name>DPD Classic Saturday</name>
+                <price>00.00</price>
+                <title>Your shipment will be delivered on Saturday</title>
+                <type>I</type>
+                <sort_order>0</sort_order>
+                <specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
+            </dpdclassicsaturday>
+            <dpdpickup>
+                <active>0</active>
+				<rate_type>flat</rate_type>
+                <sallowspecific>0</sallowspecific>
+                <model>DPD\Shipping\Model\Carrier\Dpdpickup</model>
+                <name>DPD Pickup</name>
+                <price>00.00</price>
+                <title>DPD Pickup</title>
+                <map_width>600</map_width>
+                <map_height>430</map_height>
+                <map_max_shops>10</map_max_shops>
+                <type>I</type>
+                <sort_order>0</sort_order>
+                <specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
+            </dpdpickup>
+        </carriers>
+    </default>
+</config>

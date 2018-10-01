@@ -1,0 +1,19 @@
+{
+    "name": "gimmick/magento2-shipping",
+    "description": "The DPD Magento 2 shipping method",
+    "require": {
+      "php": ">=5.6.5"
+    },
+    "type": "magento2-module",
+    "license": [
+        "https://connect20.aveo-trade.cz/Content_Cat:Agreement"
+    ],
+    "autoload": {
+      "files": [
+        "registration.php"
+      ],
+      "psr-4": {
+        "DPD\\Shipping\\": ""
+      }
+    }
+}
