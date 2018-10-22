@@ -8,9 +8,9 @@ class DPDClient extends AbstractHelper
 {
     const DPD_CONFIG_SERVICE_MODE = 'dpdshipping/account_settings/mode_type';
 
-    const DPD_LOGIN_SERVICE_URL = 'LoginService.svc?singleWsdl';
-    const DPD_SHIPMENT_SERVICE_URL = 'ShipmentService.svc?singleWsdl';
-    const DPD_PARCELSHOP_URL = 'ParcelShopFinderService.svc?singleWsdl';
+    const DPD_LOGIN_SERVICE_URL = 'LoginService/?wsdl';
+    const DPD_SHIPMENT_SERVICE_URL = 'ShipmentService/?wsdl';
+    const DPD_PARCELSHOP_URL = 'ParcelShopFinderService/?wsdl';
 
     const DPD_STAGING_SERVICE_URL = 'http://www.test.import-vypisov.eu/Services/';
     const DPD_LIVE_SERVICE_URL = 'https://www.biatec.cz/Services/';
